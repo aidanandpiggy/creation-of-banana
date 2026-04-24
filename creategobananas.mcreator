@@ -1,14 +1,32 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Cheese",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/creategobananas/models/item/cheese.json",
+          "src/main/resources/assets/creategobananas/items/cheese.json",
+          "src/main/java/net/mcreator/creategobananas/item/CheeseItem.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.creategobananas.cheese": "Cheese"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/creategobananas/init/CreategobananasModItems.java",
       "src/main/java/net/mcreator/creategobananas/CreategobananasMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta"
@@ -21,7 +39,7 @@
   "workspaceSettings": {
     "modid": "creategobananas",
     "modName": "create:gobananas",
-    "version": "1.0.0",
+    "version": "1.21.1",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
@@ -31,6 +49,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.creategobananas"
   },
   "mcreatorVersion": 202500345720
